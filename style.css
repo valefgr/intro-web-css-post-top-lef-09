@@ -1,0 +1,52 @@
+*{
+    font-family: Lucida Sans', Verdana, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    align-items: center;
+}
+
+
+
+.banner{
+        background-image: url("bg.jpg");
+        color: white;
+        padding: 100px; 
+        text-align: center;
+}
+
+
+
+
+.html-exp, .css-exp, .js-exp{
+    padding: 60px;
+}
+        
+
+/* Ejercicio 1.
+    Añade la propiedad "Position: ;" con el valor "absolute" al selector ".flappy-js"
+*/
+.flappy-js{
+    background-image: url("fb-game-background.png");
+    padding: 60px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+      
+
+/* Ejercicio 2.
+    Añade las propiedades "top: ;" y "left: ;" con el valor de 50px 
+*/
+#flappy-bird{
+    position: absolute;
+}
